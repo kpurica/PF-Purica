@@ -3,6 +3,8 @@
   padding: 0;
   margin: 0;
   font-family: "outfit"; }
+  * a {
+    text-decoration: none; }
 
 /* Tipografias */
 @font-face {
@@ -39,6 +41,13 @@ h4 {
   font-weight: bold; }
 
 /* Buttons */
+.button-primary:hover {
+  background-color: #233175; }
+
+.button-secundary:hover {
+  background-color: #334AC0;
+  color: #FFFFFF; }
+
 .header__button a {
   text-decoration: none;
   color: white;
@@ -50,7 +59,7 @@ h4 {
   background-color: #334AC0;
   transition: background-color 0.30s ease;
   border-radius: 20px;
-  box-shadow: 4px 4px 30px 0px rgba(51, 74, 192, 0.5); }
+  box-shadow: 4px 4px 30px 0px #334ac080; }
 
 .button-primary-xl {
   display: inline-block;
@@ -65,7 +74,8 @@ h4 {
   padding: 14px 28px;
   transition: background-color 0.30s ease;
   border: #334AC0 solid;
-  border-radius: 20px; }
+  border-radius: 20px;
+  color: #334AC0; }
 
 /* Header */
 nav div a img {
@@ -104,8 +114,6 @@ main section img {
   font-weight: 600; }
 
 .main__hero div .button-secundary {
-  color: #334AC0;
-  text-decoration: none;
   font-weight: 600; }
 
 .main__hero div .main__hero--buttons {
