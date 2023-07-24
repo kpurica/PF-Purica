@@ -1,0 +1,57 @@
+// MAIN
+
+// Main Banner Hero
+.main__hero-sobre-mi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    div{
+        text-align: center;
+        width: 284px;
+        margin: 28px 0px 28px 0px;
+    }
+    .main__hero-sobre-mi--buttons{
+        margin-bottom: 0px;
+    }
+    .button-primary{
+        margin-bottom: 8px;
+    }
+}
+
+// Main Personas
+.main__persona{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px 30px 0px;
+    background-color: $gris;
+    div{
+        text-align: center;
+        width: 280px;
+        margin-bottom: 28px;
+        h4{
+            margin-bottom: 0px;
+        }
+    }
+}
+
+//Main Valores
+
+.main__valores{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 0px;
+    .main__valores--titular{
+        width: 280px;
+    }
+    .main__valores--iconos{
+        width: 220px;
+        margin: 30px 0px 0px 0px;
+        img{
+            width: 63px;
+        }
+    }
+}

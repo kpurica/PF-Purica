@@ -40,6 +40,13 @@ h4 {
 .bold {
   font-weight: bold; }
 
+h5 {
+  font-size: 14px;
+  font-weight: 600; }
+
+p {
+  font-size: 12px; }
+
 /* Buttons */
 .button-primary:hover {
   background-color: #233175; }
@@ -50,7 +57,7 @@ h4 {
 
 .header__button a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
   font-weight: bold; }
 
 .button-primary {
@@ -59,7 +66,9 @@ h4 {
   background-color: #334AC0;
   transition: background-color 0.30s ease;
   border-radius: 20px;
-  box-shadow: 4px 4px 30px 0px #334ac080; }
+  box-shadow: 4px 4px 30px 0px #334ac080;
+  color: #FFFFFF;
+  font-weight: 600; }
 
 .button-primary-xl {
   display: inline-block;
@@ -67,7 +76,8 @@ h4 {
   background-color: #334AC0;
   transition: background-color 0.30s ease;
   border-radius: 20px;
-  box-shadow: 4px 4px 30px 0px rgba(51, 74, 192, 0.5); }
+  box-shadow: 4px 4px 30px 0px rgba(51, 74, 192, 0.5);
+  color: #FFFFFF; }
 
 .button-secundary {
   display: inline-block;
@@ -75,7 +85,8 @@ h4 {
   transition: background-color 0.30s ease;
   border: #334AC0 solid;
   border-radius: 20px;
-  color: #334AC0; }
+  color: #334AC0;
+  font-weight: 600; }
 
 /* Header */
 nav div a img {
@@ -437,3 +448,66 @@ main section img {
     padding: 22px 86px; }
   .main__section-4 {
     margin-bottom: 70px; } }
+
+/* CURRICULUM */
+/* Main */
+/* Banner Hero */
+.main__hero .main__hero--headline-cv {
+  margin: 0px 0px 8px 0px; }
+
+.main__hero .main__hero--caption-cv {
+  margin: 0px 0px 20px 0px; }
+
+/* CV */
+.main__cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 10%; */
+  margin-bottom: 20px; }
+
+.main__cv iframe {
+  margin: 20px 0px 20px 0px;
+  width: 90%;
+  height: 680px; }
+
+.main__hero-sobre-mi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px; }
+  .main__hero-sobre-mi div {
+    text-align: center;
+    width: 284px;
+    margin: 28px 0px 28px 0px; }
+  .main__hero-sobre-mi .main__hero-sobre-mi--buttons {
+    margin-bottom: 0px; }
+  .main__hero-sobre-mi .button-primary {
+    margin-bottom: 8px; }
+
+.main__persona {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0px 30px 0px;
+  background-color: #F6F6F6; }
+  .main__persona div {
+    text-align: center;
+    width: 280px;
+    margin-bottom: 28px; }
+    .main__persona div h4 {
+      margin-bottom: 0px; }
+
+.main__valores {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 0px; }
+  .main__valores .main__valores--titular {
+    width: 280px; }
+  .main__valores .main__valores--iconos {
+    width: 220px;
+    margin: 30px 0px 0px 0px; }
+    .main__valores .main__valores--iconos img {
+      width: 63px; }

@@ -10,7 +10,7 @@
     <title>Sobre mi</title>
 </head>
 
-<body>
+<body class="vh-100 overflow-auto">
 
     <!-- Header de Bootstrap -->
     <nav class="navbar custom__navbar navbar-expand-lg bg-transparent">
@@ -65,56 +65,77 @@
         </div>
     </nav>
 
+    <!-- Main -->
     <main>
-        <section>
-            <h1>Sobre mi</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a orci velit.</h3>
+        <!-- Banner Hero -->
+        <section class="main__hero-sobre-mi">
+            <div>
+                <h1>Hola, soy <br><span class="color-highlight">Kevin Purica</span>
+                </h1>
+                <h4> Diseñador UX/UI venezolano con residencia en Santiago de Chile.
+                    Mi pasión es <span class="bold">diseñadar productos digitales que faciliten la vida de las
+                        personas.</span></h4>
+                <div class="main__hero-sobre-mi--buttons">
+                    <a class="button-primary" href="../pages/contacto.html">Contáctame</a>
+                    <a class="button-secundary" href="https://www.linkedin.com/in/kpurica/" target="_blank">Ver
+                        LinkedIn</a>
+                </div>
+            </div>
+            <img src="../resources/img/foto-kevin.png" alt="Foto perfil Kevin Purica">
+        </section>
+        <section class="main__persona">
+            <div>
+                <h2><span class="color-highlight">Una persona</span> diseñando para personas</h2>
+                <h4>Me he desempeñado como Diseñador desde hace 3 años, en proyectos de diferentes ámbitos, pero con
+                    algo en común, <span class="bold">todos están centrados en la persona usuaria.</span></h4>
+            </div>
+            <img src="../resources/ilustraciones/ilustracion-diseñadores.svg" alt="Ilustración de personas diseñando">
+        </section>
+        <section class="main__valores">
+            <div class="main__valores--titular">
+                <h2>Mis valores profesionales</h2>
+                <h4>Empatía, innovación, colaboración. Diseñando experiencias digitales excepcionales.</h4>
+            </div>
+            <div class="main__valores--iconos">
+                <div>
+                    <img src="../resources/iconos/icon-carpeta.svg" alt="icono carpeta">
+                    <h5>Pasión por crear</h5>
+                    <p>Apasionado por crear, mis experiencias digitales innovadoras cautivan y conectan con los
+                        usuarios.</p>
+                </div>
+
+                <div>
+                    <img src="../resources/iconos/icon-book.svg" alt="icono libro">
+                    <h5>Aprendizaje constante</h5>
+                    <p>Busco aprendizaje constante, mejorando continuamente para adaptarme a las últimas tendencias
+                        tecnológicas.</p>
+                </div>
+
+                <div>
+                    <img src="../resources/iconos/icon-heart.svg" alt="icono corazón">
+                    <h5>Compromiso y respeto</h5>
+                    <p>Dedicado a un enfoque profesional que crea conexiones sólidas y relaciones duraderas.</p>
+                </div>
+
+                <div>
+                    <img src="../resources/iconos/icon-people.svg" alt="icono personas">
+                    <h5>Trabajo en equipo</h5>
+                    <p>Colaboración, comunicación y sinergia para lograr objetivos con éxito.</p>
+                </div>
+            </div>
+
         </section>
 
-        <section>
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolorum voluptas, natus porro repellendus
-                autem vero nulla beatae hic veniam eum dolores, magni neque cupiditate.</h4>
+        <!-- Sección 4 -->
+        <section class="main__section-4">
+            <div>
+                <h2 class="h2-secundary">¡El futuro es ahora, creémoslo!</h2>
+                <h4 class="h4-secundary"><span class="bold">Formemos equipo</span> y hagamos posible todas esas ideas
+                    que van
+                    a cambiar el mundo.</h4>
+            </div>
+            <a class="button-primary" href="./pages/contacto.html">Contáctame</a>
         </section>
-
-        <section>
-            <h2>Mis valores profesionales</h2>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a orci velit.</h4>
-
-            <div>
-                <img src="#" alt="icono">
-                <h5>Valor 1</h5>
-                <p>consectetur adipiscing elit. Suspendisse a orci velit. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.</p>
-            </div>
-
-            <div>
-                <img src="#" alt="icono">
-                <h5>Valor 2</h5>
-                <p>consectetur adipiscing elit. Suspendisse a orci velit. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.</p>
-            </div>
-
-            <div>
-                <img src="#" alt="icono">
-                <h5>Valor 3</h5>
-                <p>consectetur adipiscing elit. Suspendisse a orci velit. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.</p>
-            </div>
-
-            <div>
-                <img src="#" alt="icono">
-                <h5>Valor 4</h5>
-                <p>consectetur adipiscing elit. Suspendisse a orci velit. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit.</p>
-            </div>
-        </section>
-
-        <section class="index-section-4">
-            <h2>¡El futuro es ahora, creémoslo!</h2>
-            <h4><span class="negrita">Formemos equipo</span> y hagamos posible todas esas ideas que van a cambiar el
-                mundo.</h4>
-            <a href="./contacto.html">Contáctame</a>
     </main>
 
     <!-- Footer -->
