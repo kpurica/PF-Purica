@@ -1,7 +1,7 @@
 /* Buttons */
 @mixin button-primary {
     display: inline-block;
-    padding: 14px 28px;
+    padding: 22px 28px;
     background-color: $violeta;
     transition: background-color 0.30s ease;
     border-radius: 20px;
@@ -12,7 +12,7 @@
 
 @mixin button-primary-xl {
     display: inline-block;
-    padding: 14px 86px;
+    padding: 22px 28px;
     background-color: $violeta;
     transition: background-color 0.30s ease;
     border-radius: 20px;
@@ -26,7 +26,7 @@
 
 @mixin button-secundary {
     display: inline-block;
-    padding: 14px 28px;
+    padding: 22px 28px;
     transition: background-color 0.30s ease;
     border: $violeta solid;
     border-radius: 20px;

@@ -1,36 +1,41 @@
 // MAIN
 
 // Main Banner Hero
-.main__hero-sobre-mi{
+.main__hero-sobre-mi {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
-    div{
+
+    div {
         text-align: center;
         width: 284px;
         margin: 28px 0px 28px 0px;
     }
-    .main__hero-sobre-mi--buttons{
+
+    .main__hero-sobre-mi--buttons {
         margin-bottom: 0px;
     }
-    .button-primary{
+
+    .button-primary {
         margin-bottom: 8px;
     }
 }
 
 // Main Personas
-.main__persona{
+.main__persona {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 30px 0px 30px 0px;
     background-color: $gris;
-    div{
+
+    div {
         text-align: center;
         width: 280px;
         margin-bottom: 28px;
-        h4{
+
+        h4 {
             margin-bottom: 0px;
         }
     }
@@ -38,20 +43,133 @@
 
 //Main Valores
 
-.main__valores{
+.main__valores {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
     margin: 30px 0px;
-    .main__valores--titular{
+
+    .main__valores--titular {
         width: 280px;
     }
-    .main__valores--iconos{
+
+    .main__valores--iconos {
         width: 220px;
         margin: 30px 0px 0px 0px;
-        img{
+
+        img {
             width: 63px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .main__hero-sobre-mi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 30px;
+
+        div {
+            text-align: left;
+            width: 320px;
+        }
+    }
+
+
+
+    .main__hero-sobre-mi--buttons {
+        display: flex;
+        flex-direction: row;
+
+        // justify-content: space-between;
+        .button-primary {
+            margin: 0px 8px 0px 0px;
+        }
+
+        .button-secundary {
+            // height: 52px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .main__persona {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+
+        div {
+            text-align: left;
+        }
+    }
+
+    .main__valores {
+        .main__valores--titular {
+            width: 420px;
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        .main__valores--iconos {
+            width: 820px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            div {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .main__hero-sobre-mi {
+        div {
+            margin-top: 70px;
+            width: 640px;
+            h4{
+                width: 620px;
+                margin: 0px 0px 0px 0px;
+            }
+        }
+        .main__hero-sobre-mi--buttons {
+            display: flex;
+            flex-direction: row;
+            width: 320px;
+            margin: 20px 0px 0px 0px;
+        }
+    }
+
+    .main__persona {
+        div {
+            width: 620px;
+            padding: 70px 0px;
+        }
+    }
+    
+    .main__valores {
+        padding: 70px 0px;
+        margin: 0px;
+        .main__valores--titular {
+            width: 820px;
+        }
+
+        .main__valores--iconos {
+            width: 1300px;
+            h5 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 20px;
+            }
         }
     }
 }

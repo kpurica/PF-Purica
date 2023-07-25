@@ -62,7 +62,7 @@ p {
 
 .button-primary {
   display: inline-block;
-  padding: 14px 28px;
+  padding: 22px 28px;
   background-color: #334AC0;
   transition: background-color 0.30s ease;
   border-radius: 20px;
@@ -72,7 +72,7 @@ p {
 
 .button-primary-xl {
   display: inline-block;
-  padding: 14px 86px;
+  padding: 22px 28px;
   background-color: #334AC0;
   transition: background-color 0.30s ease;
   border-radius: 20px;
@@ -81,7 +81,7 @@ p {
 
 .button-secundary {
   display: inline-block;
-  padding: 14px 28px;
+  padding: 22px 28px;
   transition: background-color 0.30s ease;
   border: #334AC0 solid;
   border-radius: 20px;
@@ -511,3 +511,69 @@ main section img {
     margin: 30px 0px 0px 0px; }
     .main__valores .main__valores--iconos img {
       width: 63px; }
+
+@media (min-width: 768px) {
+  .main__hero-sobre-mi {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px; }
+    .main__hero-sobre-mi div {
+      text-align: left;
+      width: 320px; }
+  .main__hero-sobre-mi--buttons {
+    display: flex;
+    flex-direction: row; }
+    .main__hero-sobre-mi--buttons .button-primary {
+      margin: 0px 8px 0px 0px; }
+    .main__hero-sobre-mi--buttons .button-secundary {
+      text-align: center;
+      display: flex;
+      align-items: center; }
+  .main__persona {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly; }
+    .main__persona div {
+      text-align: left; }
+  .main__valores .main__valores--titular {
+    width: 420px; }
+  .main__valores h4 {
+    text-align: center; }
+  .main__valores .main__valores--iconos {
+    width: 820px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .main__valores .main__valores--iconos div {
+      margin-left: 20px;
+      margin-right: 20px; } }
+
+@media (min-width: 1200px) {
+  .main__hero-sobre-mi div {
+    margin-top: 70px;
+    width: 640px; }
+    .main__hero-sobre-mi div h4 {
+      width: 620px;
+      margin: 0px 0px 0px 0px; }
+  .main__hero-sobre-mi .main__hero-sobre-mi--buttons {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    margin: 20px 0px 0px 0px; }
+  .main__persona div {
+    width: 620px;
+    padding: 70px 0px; }
+  .main__valores {
+    padding: 70px 0px;
+    margin: 0px; }
+    .main__valores .main__valores--titular {
+      width: 820px; }
+    .main__valores .main__valores--iconos {
+      width: 1300px; }
+      .main__valores .main__valores--iconos h5 {
+        font-size: 28px; }
+      .main__valores .main__valores--iconos p {
+        font-size: 20px; } }
