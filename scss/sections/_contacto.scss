@@ -33,3 +33,51 @@
 
     }
 }
+
+// Media Queries
+
+@media (min-width: 768px){
+    .main__form-contacto{
+        padding: 30px 0px;
+        form{
+            div{
+                margin-bottom: 12px;
+            }
+            input:not(.button-form){
+                width: 460px;
+                height: 45px;
+            }
+            textarea{
+                width: 460px;
+            }
+            .button-form{
+                padding: 22px 210px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px){
+    .main__form-contacto{
+        padding: 70px 0px;
+        form{
+            div{
+                margin-bottom: 20px;
+            }
+            input:not(.button-form){
+                width: 720px;
+                height: 54px;
+            }
+            textarea{
+                width: 720px;
+            }
+            .button-form{
+                padding: 22px 335px;
+            }
+            h5{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
