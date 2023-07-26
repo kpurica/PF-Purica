@@ -102,6 +102,15 @@ p {
   color: #FFFFFF;
   font-weight: 600; }
 
+.btn-primary {
+  background-color: #334AC0;
+  border-radius: 12px;
+  padding: 14px 24px;
+  font-weight: 600; }
+
+.btn-primary:hover {
+  background-color: #233175; }
+
 /* Header */
 nav div a img {
   width: 140px; }
@@ -647,3 +656,6 @@ main section img {
       padding: 22px 335px; }
     .main__form-contacto form h5 {
       font-size: 20px; } }
+
+.main__proyectos {
+  margin: 30px 30px; }

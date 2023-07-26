@@ -1,134 +1,226 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Proyectos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Proyectos</title>
 </head>
 
 <body>
 
-    <!-- Header de Bootstrap -->
-    <nav class="navbar custom__navbar navbar-expand-lg bg-transparent">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand" href="../index.html">
-                <img src="../resources/logos/logo-kevin-purica.svg" alt="Logo Kevin Purica">
-            </a>
+  <!-- Header de Bootstrap -->
+  <nav class="navbar custom__navbar navbar-expand-lg bg-transparent">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="../index.html">
+        <img src="../resources/logos/logo-kevin-purica.svg" alt="Logo Kevin Purica">
+      </a>
 
-            <!-- Toggle button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <!-- SideBar -->
-            <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
+      <!-- SideBar -->
+      <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
 
-                <!-- SideBar Header -->
-                <div class="offcanvas-header">
-                    <a class="navbar-brand mx-2" href="../index.html">
-                        <img src="../resources/logos/logo-kevin-purica.svg" alt="Logo Kevin Purica">
-                    </a>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-
-                <!-- SideBar Body -->
-                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
-                    <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" href="../pages/proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="../pages/sobre-mi.html">Sobre mi</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="../pages/curriculum.html">Curriculum</a>
-                        </li>
-                    </ul>
-
-                    <!-- Button - Contactame -->
-                    <div class="d-flex flex-column justify-content-center align-items-center gap-3 header__button">
-                        <a class="button-primary" href="../pages/contacto.html">Contáctame</a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main -->
-    <main>
-        <section>
-            <h1>Mis proyectos</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a orci velit.</h3>
-        </section>
-
-        <section>
-            <div>
-                <h5>Proyecto</h5>
-                <p>Descripción</p>
-            </div>
-
-            <div>
-                <h5>Proyecto</h5>
-                <p>Descripción</p>
-            </div>
-
-            <div>
-                <h5>Proyecto</h5>
-                <p>Descripción</p>
-            </div>
-
-            <div>
-                <h5>Proyecto</h5>
-                <p>Descripción</p>
-            </div>
-
-            <div>
-                <h5>Proyecto</h5>
-                <p>Descripción</p>
-            </div>
-
-            <div>
-                <h5>Proyecto</h5>
-                <p>Descripción</p>
-            </div>
-        </section>
-
-        <section class="index-section-4">
-            <h2>¡El futuro es ahora, creémoslo!</h2>
-            <h4><span class="negrita">Formemos equipo</span> y hagamos posible todas esas ideas que van a cambiar el
-                mundo.</h4>
-            <a href="./contacto.html">Contáctame</a>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer__logo">
-            <img src="../resources/logos/logo-kevin-purica-blanco.svg" alt="logo kevin purica">
-            <small>© Copyright 2023. Diseñado y desarrollado por Kevin Purica.</small>
+        <!-- SideBar Header -->
+        <div class="offcanvas-header">
+          <a class="navbar-brand mx-2" href="../index.html">
+            <img src="../resources/logos/logo-kevin-purica.svg" alt="Logo Kevin Purica">
+          </a>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
 
-        <div class="footer__linkedin">
-            <a href="https://www.linkedin.com/in/kpurica/" target="_blank">
-                <img src="../resources/iconos/icono-linkedin.svg" alt="icono de linkedin">
-            </a>
-        </div>
-    </footer>
+        <!-- SideBar Body -->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="../pages/proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../pages/sobre-mi.html">Sobre mi</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../pages/curriculum.html">Curriculum</a>
+            </li>
+          </ul>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+          <!-- Button - Contactame -->
+          <div class="d-flex flex-column justify-content-center align-items-center gap-3 header__button">
+            <a class="button-primary" href="../pages/contacto.html">Contáctame</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="main">
+    <!-- Banner Hero -->
+    <section class="main__hero">
+      <div>
+        <h1 class="main__hero--headline-cv color-highlight">Mis proyectos</h1>
+        <h4 class="main__hero--caption-cv">Innovación centrada en el usuario. <span class="bold">Experiencias
+            digitales a la medida.</h4>
+        <div class="main__hero--buttons">
+          <a class="button-primary" href="../pages/contacto.html">Contáctame</a>
+          <a class="button-secundary" href="https://www.linkedin.com/in/kpurica/" target="_blank">Ver
+            LinkedIn</a>
+        </div>
+      </div>
+      <img src="../resources/ilustraciones/ilustracion-diseñadores.svg" alt="2 Personas junto a celular de Contacto">
+    </section>
+    <!-- Card Bestmart -->
+    <section class="main__proyectos">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col main_proyectos--card">
+          <div class="card">
+            <img src="../resources/img/bestmart.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bestmart</h5>
+              <p class="card-text">Tienda online de tecnología, especializada en el smarthome.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bestmart">
+                Ver proyecto
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Card Care -->
+        <div class="col">
+          <div class="card">
+            <img src="../resources/img/care.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Care</h5>
+              <p class="card-text">Centro de rehabilitación kinesiológico para deportistas profesionales.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#care">
+                Ver proyecto
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Card COA -->
+        <div class="col">
+          <div class="card">
+            <img src="../resources/img/coa.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">COA</h5>
+              <p class="card-text">Tienda online de surf con impacto social y ambiental.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coa">
+                Ver proyecto
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Card FullWater -->
+        <div class="col">
+          <div class="card">
+            <img src="../resources/img/fullwater.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Full Water</h5>
+              <p class="card-text">Emprendimiento innovador que distribuye máquinas purificadoras de agua a condominios
+                habitacionales.</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fullwater">
+                Ver proyecto
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Bestmart -->
+      <div class="modal fade" id="bestmart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Bestmart</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+              <img src="../resources/img/bestmart-graficas.png" alt="Gráficas Bestmart">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal Care -->
+      <div class="modal fade" id="care" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Care</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+              <img src="../resources/img/care-graficas.png" alt="Gráficas Care">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal COA-->
+      <div class="modal fade" id="coa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">COA</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+              <img src="../resources/img/coa-graficas.png" alt="gráficas COA">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal FullWater -->
+      <div class="modal fade" id="fullwater" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Full Water</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body d-flex justify-content-center">
+              <img src="../resources/img/fullwater-graficas.png" alt="gráficas Full Water">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__section-4">
+      <div>
+        <h2 class="h2-secundary">¡El futuro es ahora, creémoslo!</h2>
+        <h4 class="h4-secundary"><span class="bold">Formemos equipo</span> y hagamos posible todas esas ideas
+          que van a cambiar el mundo.</h4>
+      </div>
+      <a class="button-primary" href="./pages/contacto.html">Contáctame</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__logo">
+      <img src="../resources/logos/logo-kevin-purica-blanco.svg" alt="logo kevin purica">
+      <small>© Copyright 2023. Diseñado y desarrollado por Kevin Purica.</small>
+    </div>
+
+    <div class="footer__linkedin">
+      <a href="https://www.linkedin.com/in/kpurica/" target="_blank">
+        <img src="../resources/iconos/icono-linkedin.svg" alt="icono de linkedin">
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

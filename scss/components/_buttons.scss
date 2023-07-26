@@ -76,3 +76,15 @@
 .button-form {
     @include button-form;
 }
+
+//Bootstrap Btns
+.btn-primary{
+    background-color: $violeta;
+    border-radius: 12px;
+    padding: 14px 24px;
+    font-weight: 600;
+}
+
+.btn-primary:hover{
+    background-color: #233175;
+}
