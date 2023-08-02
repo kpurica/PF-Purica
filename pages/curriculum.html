@@ -7,6 +7,7 @@
     <meta name="description"
         content="Curriculum - Kevin Purica, Diseñador UX/UI: Mi trayectoria en el diseño centrado en el usuario. Descubre mi experiencia y habilidades que respaldan mis proyectos creativos. ¡Conoce mi recorrido en el mundo del diseño!">
     <meta name="keywords" content="CV, Vitae, Curriculum, Diseñador, Experiencia, Postulante">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
@@ -15,51 +16,53 @@
 
 <body class="vh-100 overflow-auto">
     <!-- Header de Bootstrap -->
-    <nav class="navbar custom__navbar navbar-expand-lg bg-transparent">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand" href="../index.html">
-                <img src="../resources/logos/logo-kevin-purica.svg" alt="Logo Kevin Purica">
-            </a>
-            <!-- Toggle button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- SideBar -->
-            <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <!-- SideBar Header -->
-                <div class="offcanvas-header">
-                    <a class="navbar-brand mx-2" href="../index.html">
-                        <img src="../resources/logos/logo-kevin-purica.svg" alt="Logo Kevin Purica">
-                    </a>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <!-- SideBar Body -->
-                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
-                    <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link" href="../pages/proyectos.html">Proyectos</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link " href="../pages/sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link active" href="../pages/curriculum.html">Curriculum</a>
-                        </li>
-                    </ul>
-                    <!-- Button - Contactame -->
-                    <div class="d-flex flex-column justify-content-center align-items-center gap-3 header__button">
-                        <a class="button-primary" href="../pages/contacto.html">Contáctame</a>
+    <header>
+        <nav class="navbar custom__navbar navbar-expand-lg bg-transparent">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../resources/logos/logo-kevin-purica.svg" alt="Logo Kevin Purica">
+                </a>
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- SideBar -->
+                <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <!-- SideBar Header -->
+                    <div class="offcanvas-header">
+                        <a class="navbar-brand mx-2" href="../index.html">
+                            <img src="../resources/logos/logo-kevin-purica.svg" alt="Logo Kevin Purica">
+                        </a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!-- SideBar Body -->
+                    <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="../pages/proyectos.html">Proyectos</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link " href="../pages/sobre-mi.html">Sobre mí</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="../pages/curriculum.html">Curriculum</a>
+                            </li>
+                        </ul>
+                        <!-- Button - Contactame -->
+                        <div class="d-flex flex-column justify-content-center align-items-center gap-3 header__button">
+                            <a class="button-primary" href="../pages/contacto.html">Contáctame</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- Main -->
     <main class="main">
         <!-- Banner Hero -->
@@ -81,7 +84,7 @@
         <section class="main__cv">
             <iframe src="../resources/documentos/cv.pdf"></iframe>
         </section>
-        <!-- Sección 4 -->
+        <!-- Sección Contáctame -->
         <section class="main__section-4">
             <div>
                 <h2 class="h2-secundary">¡El futuro es ahora, creémoslo!</h2>
@@ -89,7 +92,7 @@
                     ideas que van
                     a cambiar el mundo.</h4>
             </div>
-            <a class="button-primary" href="../pages/contacto.html">Contáctame</a>
+            <a class="button-primary" href="./contacto.html">Contáctame</a>
         </section>
     </main>
     <!-- Footer -->
