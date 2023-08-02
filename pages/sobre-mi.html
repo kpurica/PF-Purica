@@ -7,7 +7,7 @@
     <meta name="description"
         content="Sobre mí - Kevin Purica, Diseñador UX/UI: Apasionado por crear experiencias digitales sorprendentes. Amante del diseño centrado en el usuario y la innovación. ¡Descubre mi pasión por el diseño!">
     <meta name="keywords" content="Sobre mí, Perfil, Habilidades, Diseñador, Profesional, Postulante">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -69,7 +69,7 @@
     <!-- Main -->
     <main>
         <!-- Banner Hero -->
-        <section class="main__hero-sobre-mi">
+        <section class="animate__animated animate__fadeInUp main__hero-sobre-mi">
             <div>
                 <h1>Hola, soy <br><span class="color-highlight">Kevin Purica</span>
                 </h1>
@@ -84,7 +84,8 @@
             </div>
             <img src="../resources/img/foto-kevin.png" alt="Foto perfil Kevin Purica">
         </section>
-        <section class="main__persona">
+        <!-- Sección Persona -->
+        <section class="main__persona" data-aos="fade-up">
             <div>
                 <h2><span class="color-highlight">Una persona</span> diseñando para personas</h2>
                 <h4>Me he desempeñado como Diseñador desde hace 3 años, en proyectos de diferentes ámbitos, pero con
@@ -92,31 +93,32 @@
             </div>
             <img src="../resources/ilustraciones/ilustracion-diseñadores.svg" alt="Ilustración de personas diseñando">
         </section>
+        <!-- Sección Valores -->
         <section class="main__valores">
-            <div class="main__valores--titular">
+            <div class="main__valores--titular" data-aos="fade-up">
                 <h2><span class="color-highlight">Mis valores</span> profesionales</h2>
                 <h4><span class="bold">Empatía, innovación, colaboración.</span> Diseñando experiencias digitales
                     excepcionales.</h4>
             </div>
             <div class="main__valores--iconos">
-                <div>
+                <div data-aos="zoom-out">
                     <img src="../resources/iconos/icon-carpeta.svg" alt="icono carpeta">
                     <h5>Pasión por crear</h5>
                     <p>Apasionado por crear, mis experiencias digitales innovadoras cautivan y conectan con los
                         usuarios.</p>
                 </div>
-                <div>
+                <div data-aos="zoom-out">
                     <img src="../resources/iconos/icon-book.svg" alt="icono libro">
                     <h5>Aprendizaje constante</h5>
                     <p>Busco aprendizaje constante, mejorando continuamente para adaptarme a las últimas tendencias
                         tecnológicas.</p>
                 </div>
-                <div>
+                <div data-aos="zoom-out">
                     <img src="../resources/iconos/icon-heart.svg" alt="icono corazón">
                     <h5>Compromiso y respeto</h5>
                     <p>Dedicado a un enfoque profesional que crea conexiones sólidas y relaciones duraderas.</p>
                 </div>
-                <div>
+                <div data-aos="zoom-out">
                     <img src="../resources/iconos/icon-people.svg" alt="icono personas">
                     <h5>Trabajo en equipo</h5>
                     <p>Colaboración, comunicación y sinergia para lograr objetivos con éxito.</p>
@@ -124,7 +126,7 @@
             </div>
         </section>
         <!-- Sección Contáctame -->
-        <section class="main__section-4">
+        <section class="main__section-4" data-aos="zoom-in">
             <div>
                 <h2 class="h2-secundary">¡El futuro es ahora, creémoslo!</h2>
                 <h4 class="h4-secundary"><span class="bold">Formemos equipo</span> y hagamos posible todas esas ideas
@@ -145,6 +147,12 @@
             </a>
         </div>
     </footer>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
